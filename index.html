@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <!-- timer -->
+  <section id="section-timer" class="hide">
+    <div>
+      <a href="#" id="viewHighScore">View High Scores</a>
+  </div>
+    <div id="timr"> Time Remaining :  <span id="timer">0</span></div>
+  </section>
+
+  <!-- start game button -->
+  <section id="section-landing" class="sec-item">
+    <h1>Welcome to my quiz!</h1>
+
+    <button id="start-game">Start</button>
+  </section>
+
+
+  <!-- question section -->
+  <section id="section-question" class="hide" >
+
+    <!-- title -->
+    <h1 id="question-title">How are you doing?</h1>
+
+    <!-- choices -->
+    <ul id="question-choices">
+      <li><button class="question-choice">Good</button></li>
+      <li><button class="question-choice">Very Good</button></li>
+      <li><button class="question-choice">Super good</button></li>
+    </ul>
+    <!-- result feedback-->
+
+    <p>Answer: <span id = "feedback"></span></p>
+
+  </section>
+
+  <!-- end game screen (show high score) -->
+  <section id="section-end-game" class="hide">
+
+    <h1>Game Over!</h1>
+    <p>Your score is: <span id="result-span">10</span></p>
+    <!-- form to enter initials -->
+    <!-- button to save the initials -->
+    <form id="form-initials">
+      <input type="text" placeholder="initials here" id="input-initials">
+      <button id="saveBtn" >Save</button>
+    </form>
+  </section>
+
+  <!-- all the high scores page -->
+  <section id="section-highscore" class="hide">
+    <h1>Highscores</h1>
+    <p><span id="myList"></span></p>
+    
+      <button type="submit"  id="goBackBtn">Go Back</button>
+      <button type="submit" id="clearHighScoreBtn">Clear High Scores</button>
+  </section>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/questions.js"></script>
+  </body>
+</html>

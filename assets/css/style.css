@@ -1,0 +1,147 @@
+.hide {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  background-color: hsl(189, 88%, 84%);
+}
+
+#section-timer {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+
+}
+
+/* #viewHighScore {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+#timr {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+} */
+
+.question-choice {
+  border: 3px solid hsl(200, 100%, 25%);
+  border-radius: 5px;
+  background-color: hsl(235, 78%, 59%);
+  padding: 15px 20px;
+  margin: 15px;
+  color: white;
+  font-size: large;
+  width: 40%;
+}
+
+#question-choices {
+  list-style-type: none;
+}
+
+h1,
+h3 {
+  width: 100%;
+  margin: 10px 0 0;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+#section-landing {
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  max-width: 75%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 2px;
+}
+#feedback{
+  color: rgb(241, 48, 212);
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* #section-question{
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  max-width: 75%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 2px;
+} */
+#section-question,
+#section-end-game,
+#section-highscore {
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  max-width: 75%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 2px;
+}
+
+#start-game,
+#goBackBtn {
+  border: 3px solid hsl(200, 100%, 25%);
+  border-radius: 5px;
+  background-color: hsl(200, 100%, 50%);
+  padding: 10px 15px;
+  margin: 15px;
+  color: white;
+  font-size: large;
+  width: 40%;
+}
+
+#clearHighScoreBtn {
+  border: 3px solid hsl(200, 100%, 25%);
+  border-radius: 5px;
+  background-color: hsl(200, 100%, 50%);
+  padding: 10px 15px;
+  margin: 15px;
+  color: white;
+  font-size: large;
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  #start-game,#goBackBtn {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 5px 10px;
+  }
+}
