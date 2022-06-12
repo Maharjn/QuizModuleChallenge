@@ -6,7 +6,7 @@
 * [Screenshot](#screenshot)
 
 ## General info
-This timed quiz project is developed based on the javascript,html and css. The user has 100 seconds to answer 10 multiple-choice questions. Every correct answer scores the user 10 pts; an incorrect answer will subtract 10 seconds from the timer.     
+This timed quiz project is developed using the javascript,html and css. The user has 100 seconds to answer 10 multiple-choice questions. Every correct answer scores the user 10 pts; an incorrect answer will subtract 10 seconds from the timer.     
 
 ## Concepts
 
@@ -16,7 +16,7 @@ This timed quiz project is developed based on the javascript,html and css. The u
 
 ## Website Link
 
-> Live link [https://maharjn.github.io/PasswordGeneratorChallenge03/]
+> Live link [https://maharjn.github.io/QuizModuleChallenge/]
 
 ## Screenshot
 The following image shows the web application's appearance and functionality:
